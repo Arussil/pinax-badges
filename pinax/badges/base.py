@@ -17,10 +17,11 @@ class BadgeAwarded(object):
 
 
 class BadgeDetail(object):
-    def __init__(self, name=None, description=None, image=None):
+    def __init__(self, name=None, description=None, image=None, how=None):
         self.name = name
         self.description = description
         self.image = image
+        self.how = how
 
 
 class Badge(object):
